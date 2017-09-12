@@ -1,4 +1,4 @@
-var playist = new Object();
+var playist = {};
 
 playist.kanye = 'school spirit';
 
