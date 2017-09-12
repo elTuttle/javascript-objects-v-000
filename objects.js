@@ -1,4 +1,6 @@
-var playist = { kanye: 'School Spirit' }
+var playist = new Object();
+
+playist.kanye = 'school spirit';
 
 function updatePlaylist(playlist,artistName,songTitle){
    return Object.assign({}, playlistObject, {[artistName]: songTitle})
