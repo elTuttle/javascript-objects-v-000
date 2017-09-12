@@ -3,7 +3,7 @@ var playlist = new Object();
 playlist.Kanye = 'school spirit';
 
 function updatePlaylist(playlist,artistName,songTitle){
-   playlist.assign({}, {artistName: songTitle})
+   Object.assign({}, {artistName: songTitle})
    return playlist
 }
 
