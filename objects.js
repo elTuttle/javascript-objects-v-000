@@ -3,9 +3,9 @@ var playist = new Object();
 playist.kanye = 'school spirit';
 
 function updatePlaylist(playlist,artistName,songTitle){
-   return Object.assign({}, playlistObject, {[artistName]: songTitle})
+   return Object.assign({}, playlist, {[artistName]: songTitle})
 }
 
 function removeFromPlaylist(playlist,artistName){
-  delete playlistObject.artistName;
+  delete playlist.artistName;
 }
